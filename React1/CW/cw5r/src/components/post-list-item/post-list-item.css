@@ -1,0 +1,18 @@
+.btn-star{
+    color: darkgoldenrod;
+}
+.btn-trash{
+    color: red;
+}
+.heart{
+    color:tomato;
+    transform: translateX(50px);
+}
+div:hover>.heart{
+    transform: translateX(0);
+    transition:1s
+}
+
+.post-list-item.important .btn-star, .post-list-item.important span{
+    color:coral;
+}
